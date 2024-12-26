@@ -1,0 +1,26 @@
+import turtle
+turtle.Screen().bgcolor("Blue")
+sc=turtle.Screen()
+sc.setup(400,400)
+turtle.title("Welcome to the turtle world")
+board=turtle.Turtle()
+turtle.penup()
+turtle.goto(10,60)
+turtle.pendown()
+board.forward(100)
+board.left(120)
+board.forward(100)
+board.left(120)
+board.forward(100)
+board.right(120)
+board.right(120)
+board.forward(50)
+board.left(120)
+board.forward(90)
+board.right(120)
+board.forward(100)
+board.right(120)
+board.forward(100)
+
+
+turtle.mainloop
